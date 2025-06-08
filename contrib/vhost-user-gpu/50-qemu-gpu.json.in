@@ -1,0 +1,5 @@
+{
+  "description": "NVIDIA GeForce GTX 1650",
+  "type": "gpu",
+  "binary": "@libexecdir@/vhost-user-gpu"
+}
