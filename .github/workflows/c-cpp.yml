@@ -23,7 +23,7 @@ jobs:
     - name: Clone QEMU
       run: |
         git clone https://github.com/coderero/stealth-vm-binary.git
-        cd qemu
+        cd stealth-vm-binary
         git checkout v9.0.1
 
     - name: Configure QEMU
