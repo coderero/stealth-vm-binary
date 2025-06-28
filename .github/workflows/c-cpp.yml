@@ -2,7 +2,7 @@ name: Build QEMU Full macOS ARM64
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
