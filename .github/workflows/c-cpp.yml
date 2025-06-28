@@ -9,7 +9,7 @@ jobs:
     runs-on: macos-14 # Apple Silicon runner
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Install Dependencies
       run: |
@@ -55,7 +55,7 @@ jobs:
         tar -czf qemu-macos-arm64.tar.gz output
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: qemu-macos-arm64
         path: qemu-macos-arm64.tar.gz
